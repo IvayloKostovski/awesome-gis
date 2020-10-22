@@ -21,6 +21,8 @@ https://bg.wikipedia.org/wiki/Географска_информационна_с
 
 - :euro: - затворен или платен софтуер за обучителни или доброволчески цели
 - :baby: - подходящ за начинаещи
+- :snake: - наличен като Python библиотека
+- :keyboard: - наличен като програма от командния ред
 
 
 ## ГИС софтуер
@@ -30,12 +32,18 @@ https://bg.wikipedia.org/wiki/Географска_информационна_с
 
 ### Настолни
 
-- [QGIS](https://qgis.org/) :baby: - Най-разпространеният и богат на функционалности безплатен и отворен ГИС софтуер.
+- [QGIS](https://qgis.org/) :baby: :snake: - Най-разпространеният и богат на функционалности безплатен и отворен ГИС софтуер.
 
 
 ### Мобилни
 
 - [QField](https://qfield.org/) :baby: - Цялата сила на QGIS в ръцете ти, безплатно. Мобилна версия на QGIS. 
+
+
+### Команден ред :keyboard:
+
+- [GDAL](https://gdal.org) :snake: - GDAL - Geospatial Data Abstraction Library е преводач между различни растерни и векторни геопространствени формати. Сърцето на почти всички софтуери с отворен код.
+- [PCRaster](https://pcraster.geo.uu.nl) :snake: - Колекция от софтуер за прилагане на пространствено-времеви модели и анализи.
 
 
 ### Визуализации онлайн
@@ -46,9 +54,25 @@ https://bg.wikipedia.org/wiki/Географска_информационна_с
 - [OpenLayers](http://openlayers.org/) - JavaScript библиотека за визуализиране на карти.
 - [D3.js](https://d3js.org/) - JavaScript библиотека за интерактивни документи създадени от данни.
 
+
 ### Сървърни продукти
 
 - [Geoserver](http://geoserver.org/) - Java сървър за публикуване на ГИС данни в уеб среда, съгласно OGC (WMS/WFS/WCS). 
+
+
+### Библиотеки :snake:
+- [Shapely](https://github.com/Toblerity/Shapely) - Библиотека за работа с геометрични фигури в декартовата (правоъгълна) координатна система.
+- [Fiona](http://github.com/toblerity/fiona/) :keyboard: - Четене и писане на векторни ГИС данни в Python.
+- [Rasterio](https://github.com/mapbox/rasterio) :keyboard: - Четене и писане на растерни геопрастранствени данни в Python.
+- [NumPy](http://www.numpy.org/) - NumPy е в основата за научна работа с числа в Python.
+- [pandas](https://pandas.pydata.org) - Бърза, мощна, гъвкава и лесна библиотека за работа със статистически данни.
+- [GeoPandas](https://github.com/geopandas/geopandas) - GeoPandas разширява pandas за работа с географски обекти.
+- [pyproj](https://github.com/jswhit/pyproj) - Библиотека за картографски проекции и трансформации, Python интерфейс на [PROJ](https://proj.org).
+- [matplotlib](http://matplotlib.org/) - Чертаене на графики с Python.
+- [networkx](http://networkx.github.io/) - За работа с графи (мрежи).
+- [pyesridump](https://github.com/openaddresses/pyesridump) :keyboard: - Изтегляне на всички обекти от ESRI MapServer слой в GeoJson.
+
+
 ## Данни
 
 - [Национален статистически институт (НСИ)](https://www.nsi.bg/bg/content/766/статистически-данни) - Национален статистически институт на България. 
